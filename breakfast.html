@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breakfast</title>
+</head>
+<body>
+    <h1 style="color:bisque"
+    >BREAKFAST</h1>
+    <div class="calorie-buttons">
+    <button class="b1" onclick="window.open('http://127.0.0.1:5500/lessthan100b.html','_blank');'return false';"> 
+        &lt; 100 Calories
+    </button>
+    <br>
+    <button class="b2"  onclick="window.open('http://127.0.0.1:5500/100to200b.html','_blank');'return false';">
+        100-200 Calories
+    </button>
+    <br>
+    
+    <button class="b3" onclick="window.open('http://127.0.0.1:5500/200to300b.html','_blank');'return false';">
+        200-300 Calories
+    </button>
+    <br>
+    <button class="b4" onclick="window.open('http://127.0.0.1:5500/300to400b.html','_blank');'return false';">
+        300-400 Calories
+    </button>
+</div>
+<style>
+    .b1,.b2,.b3,.b4{
+        width:100%;
+        height:100px;
+        margin-bottom: 50px;
+        font-weight: bolder;
+        font-size: larger;
+        opacity:1;
+        background-color: rgba(30, 16, 0, 0.832);
+        border-style:double;
+        border-color: rgba(0, 0, 0, 0);
+        border-width: 2px;
+        color:bisque;
+        cursor: pointer;
+    }
+    .b1:hover{
+        
+        transition: opacity 0.15s;
+        text-decoration: underline;
+    }
+    .b2:hover{
+        
+        transition: opacity 0.15s;
+        text-decoration: underline;
+    }
+    .b3:hover{
+        
+        transition: opacity 0.15s;
+        text-decoration: underline;
+    }
+    .b4:hover{
+        
+        transition: opacity 0.15s;
+        text-decoration: underline;
+    }
+    body{
+            background-image:url("https://i.pinimg.com/originals/a1/44/85/a14485af812f5efb211158f1908042aa.jpg");
+            background-size: cover;
+        }
+       .b1{
+        margin-top: 100px;
+       }
+       h1{
+        font-weight: bolder;
+        font-style:normal;
+        text-decoration: underline;
+        display:inline-block;
+        font-size: 50px;
+  
+  text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0,0), -2px 2px 0 rgb(0, 0,0), -2px 2px 0 rgb(0, 0,0);
+       }
+       .b4{
+        margin-bottom: 30px;
+       }
+     
+</style>
+</body>
+</html>

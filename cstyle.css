@@ -1,0 +1,42 @@
+table, th, td {
+    border: 2px solid brown;
+    
+  }
+th, td {
+    background-color:bisque;
+    
+  }
+  table{
+    font-size: x-large;
+  }
+ .special{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+  }
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+  }
+  body{
+    background-image: url("https://img.freepik.com/premium-photo/black-stone-food-background-cooking-ingredients-top-view-free-space-your-text_187166-14221.jpg?w=1380");
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-width:fit-content;
+  }
+  p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h1{
+    border-radius: 18px;
+  }
+  h3{
+    text-decoration: underline;
+    font-size: larger;
+  }

@@ -1,0 +1,75 @@
+.h1{
+    color :black;
+    font-family: 'Times New Roman', Times, serif;
+    width:400px;
+    height:70px;
+    margin-left: 550px;
+    border-radius: 35px;
+    font-size: 25px;
+    font-weight: bolder;
+    border:none;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/660/558/original/organic-food-background-hand-drawn-concept-free-vector.jpg");
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+.special{
+    
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.option{
+
+    
+    font-size: xx-large;
+    font-weight: bolder;
+}  
+img{
+    margin-left: 560px;
+} 
+.a{
+    background-color: bisque;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    font-size: large;
+    font-weight: bold;
+}
+.a:hover{
+    opacity:0.7;
+    transition: opacity 0.15s, width 1.5s, height 1.5s;
+    width:150px;
+    height:60px;
+}
+.b{ background-color: bisque;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    font-size: large;
+    font-weight: bold;
+
+}
+.b:hover{
+    opacity:0.7;
+    transition: opacity 0.15s, width 1.5s, height 1.5s;
+    width:150px;
+    height:60px;
+}
+body{
+background-image: url("https://t4.ftcdn.net/jpg/03/11/59/83/360_F_311598304_fdudXPNJgsUMybT1UAEwjHslW3LBq91L.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+ul{
+    margin-left: 500px;
+    color: bisque;
+}
+
+
+
